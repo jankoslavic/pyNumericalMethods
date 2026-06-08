@@ -1,0 +1,23 @@
+# Normalize line endings to LF for all text files (avoids CRLF churn on Windows)
+* text=auto eol=lf
+
+# Treat notebooks as text with LF
+*.ipynb text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+
+# Binary assets — never normalize
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.npy binary
+*.pkl binary
+*.uff binary
+*.lvm binary
+*.mp4 binary
+*.mkv binary
+*.nb binary
+*.cpt binary

@@ -1,0 +1,22 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: README
+chapters:
+- file: notebooks/Study and Examination Rules.ipynb
+- file: notebooks/Lecture 01 - Introduction to Python.ipynb
+- file: notebooks/Lecture 02 - Printing, file handling, functions, modules.ipynb
+- file: notebooks/Lecture 03 - Modules, NumPy, Matplotlib.ipynb
+- file: notebooks/Lecture 04 - Object-oriented programming, symbolic computation.ipynb
+- file: notebooks/Lecture 05 - Introduction to numerical methods and systems of linear equations 1.ipynb
+- file: notebooks/Lecture 06 - Systems of linear equations 2.ipynb
+- file: notebooks/Lecture 07 - Interpolation.ipynb
+- file: notebooks/Lecture 08 - Approximation.ipynb
+- file: notebooks/Lecture 09 - Root finding.ipynb
+- file: notebooks/Lecture 10 - Numerical differentiation.ipynb
+- file: notebooks/Lecture 11 - Numerical integration.ipynb
+- file: notebooks/Lecture 12 - Numerical solution of differential equations - initial value problem.ipynb
+- file: notebooks/Lecture 13 - Numerical solution of differential equations - boundary value problem.ipynb
+- file: notebooks/Lecture 14 - Testing code correctness, user interface.ipynb
+- file: bibliography
