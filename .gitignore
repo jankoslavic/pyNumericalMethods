@@ -145,3 +145,4 @@ dmypy.json
 /notebooks/Untitled.ipynb
 # translation working files (not part of the book)
 _translation/
+build_and_deploy.bat
