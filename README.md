@@ -8,24 +8,24 @@ The lecture templates are located in the `notebooks` folder, or you can view the
 
 > This is the American-English translation of the Slovenian book [`pynm`](https://github.com/jankoslavic/pynm).
 
-Please read the [Study and Examination Rules](https://jankoslavic.github.io/pyNumericalMethods/notebooks/Study%20and%20Examination%20Rules.html); it contains key information about taking the course.
+Please read the [Study and Examination Rules](https://jankoslavic.github.io/pyNumericalMethods/notebooks/study-and-examination-rules/); it contains key information about taking the course.
 
 ## Lecture schedule
 
-1. [Oct 6: Introduction to Python, part 1](https://jankoslavic.github.io/pyNumericalMethods/notebooks/Lecture%2001%20-%20Introduction%20to%20Python.html)
-1. [Oct 13: Introduction to Python, part 2](https://jankoslavic.github.io/pyNumericalMethods/notebooks/Lecture%2001%20-%20Introduction%20to%20Python.html)
-1. [Oct 20: Printing, file handling, functions, modules](https://jankoslavic.github.io/pyNumericalMethods/notebooks/Lecture%2002%20-%20Printing,%20file%20handling,%20functions,%20modules.html)
-1. [Nov 3: Modules, NumPy, Matplotlib](https://jankoslavic.github.io/pyNumericalMethods/notebooks/Lecture%2003%20-%20Modules,%20NumPy,%20Matplotlib.html)
-1. [Nov 10: Object-oriented programming, symbolic computation](https://jankoslavic.github.io/pyNumericalMethods/notebooks/Lecture%2004%20-%20Object-oriented%20programming,%20symbolic%20computation.html)
-1. [Nov 17: Introduction to numerical methods and systems of linear equations 1](https://jankoslavic.github.io/pyNumericalMethods/notebooks/Lecture%2005%20-%20Introduction%20to%20numerical%20methods%20and%20systems%20of%20linear%20equations%201.html)
-1. [Nov 24: Systems of linear equations 2](https://jankoslavic.github.io/pyNumericalMethods/notebooks/Lecture%2006%20-%20Systems%20of%20linear%20equations%202.html)
-1. [Dec 1: Interpolation](https://jankoslavic.github.io/pyNumericalMethods/notebooks/Lecture%2007%20-%20Interpolation.html)
-1. [Dec 8: Approximation](https://jankoslavic.github.io/pyNumericalMethods/notebooks/Lecture%2008%20-%20Approximation.html)
-1. [Dec 15: Root finding](https://jankoslavic.github.io/pyNumericalMethods/notebooks/Lecture%2009%20-%20Root%20finding.html)
-1. [Dec 22: Numerical differentiation](https://jankoslavic.github.io/pyNumericalMethods/notebooks/Lecture%2010%20-%20Numerical%20differentiation.html)
-1. [Jan 5: Numerical integration](https://jankoslavic.github.io/pyNumericalMethods/notebooks/Lecture%2011%20-%20Numerical%20integration.html)
-1. [Jan 12: Numerical solution of differential equations - initial value problem](https://jankoslavic.github.io/pyNumericalMethods/notebooks/Lecture%2012%20-%20Numerical%20solution%20of%20differential%20equations%20-%20initial%20value%20problem.html) and [boundary value problem](https://jankoslavic.github.io/pyNumericalMethods/notebooks/Lecture%2013%20-%20Numerical%20solution%20of%20differential%20equations%20-%20boundary%20value%20problem.html)
-1. [Testing code correctness, user interface](https://jankoslavic.github.io/pyNumericalMethods/notebooks/Lecture%2014%20-%20Testing%20code%20correctness,%20user%20interface.html)
+1. [Oct 6: Introduction to Python, part 1](https://jankoslavic.github.io/pyNumericalMethods/notebooks/lecture-01-introduction-to-python/)
+1. [Oct 13: Introduction to Python, part 2](https://jankoslavic.github.io/pyNumericalMethods/notebooks/lecture-01-introduction-to-python/)
+1. [Oct 20: Printing, file handling, functions, modules](https://jankoslavic.github.io/pyNumericalMethods/notebooks/lecture-02-printing-file-handling-functions-module/)
+1. [Nov 3: Modules, NumPy, Matplotlib](https://jankoslavic.github.io/pyNumericalMethods/notebooks/lecture-03-modules-numpy-matplotlib/)
+1. [Nov 10: Object-oriented programming, symbolic computation](https://jankoslavic.github.io/pyNumericalMethods/notebooks/lecture-04-object-oriented-programming-symbolic-co/)
+1. [Nov 17: Introduction to numerical methods and systems of linear equations 1](https://jankoslavic.github.io/pyNumericalMethods/notebooks/lecture-05-introduction-to-numerical-methods-and-s/)
+1. [Nov 24: Systems of linear equations 2](https://jankoslavic.github.io/pyNumericalMethods/notebooks/lecture-06-systems-of-linear-equations-2/)
+1. [Dec 1: Interpolation](https://jankoslavic.github.io/pyNumericalMethods/notebooks/lecture-07-interpolation/)
+1. [Dec 8: Approximation](https://jankoslavic.github.io/pyNumericalMethods/notebooks/lecture-08-approximation/)
+1. [Dec 15: Root finding](https://jankoslavic.github.io/pyNumericalMethods/notebooks/lecture-09-root-finding/)
+1. [Dec 22: Numerical differentiation](https://jankoslavic.github.io/pyNumericalMethods/notebooks/lecture-10-numerical-differentiation/)
+1. [Jan 5: Numerical integration](https://jankoslavic.github.io/pyNumericalMethods/notebooks/lecture-11-numerical-integration/)
+1. [Jan 12: Numerical solution of differential equations - initial value problem](https://jankoslavic.github.io/pyNumericalMethods/notebooks/lecture-12-numerical-solution-of-differential-equa/) and [boundary value problem](https://jankoslavic.github.io/pyNumericalMethods/notebooks/lecture-13-numerical-solution-of-differential-equa/)
+1. [Testing code correctness, user interface](https://jankoslavic.github.io/pyNumericalMethods/notebooks/lecture-14-testing-code-correctness-user-interface/)
 1. Introduction to Mathematica*
 
 \* Optional lecture. Students of the Faculty of Mechanical Engineering UNI-LJ can obtain a licensed version of Mathematica at this [link](https://www.fs.uni-lj.si/studij/studiraj-na-fs/programska-oprema-za-studente/registracija-mathematica/).
