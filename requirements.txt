@@ -4,7 +4,7 @@ jupyterlab
 matplotlib
 pandas
 pylint
-PyQt6
+PySide6
 QtPy
 tqdm
 xlrd
@@ -14,5 +14,6 @@ sympy
 lvm_read
 pytest
 numba
+findiff
 jupyter-book>=2.1
 pyyaml
