@@ -13,8 +13,6 @@ project:
   github: jankoslavic/pyNumericalMethods
   license:
     content: CC-BY-NC-4.0
-  bibliography:
-    - references.bib
   toc:
     - file: README.md
     - file: notebooks/Study and Examination Rules.ipynb
