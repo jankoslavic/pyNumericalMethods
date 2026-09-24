@@ -8,6 +8,8 @@ The lecture templates are located in the `notebooks` folder, or you can view the
 
 > This is the American-English translation of the Slovenian book [`pynm`](https://github.com/jankoslavic/pynm).
 
+The whole book is also available as a [PDF](https://jankoslavic.github.io/pyNumericalMethods/pyNumericalMethods.pdf) (rebuilt automatically on every deploy).
+
 Please read the [Study and Examination Rules](https://jankoslavic.github.io/pyNumericalMethods/notebooks/study-and-examination-rules/); it contains key information about taking the course.
 
 ## Lecture schedule

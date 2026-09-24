@@ -13,6 +13,17 @@ project:
   github: jankoslavic/pyNumericalMethods
   license:
     content: CC-BY-NC-4.0
+  # PDF of the whole book: python .github/build_pdf.py (see the script)
+  exports:
+    - format: pdf
+      template: ./pdf/template
+      output: _build/exports/pyNumericalMethods.pdf
+      language: english
+      online_url: https://jankoslavic.github.io/pyNumericalMethods/
+      first_chapter: 0
+  downloads:
+    - url: https://jankoslavic.github.io/pyNumericalMethods/pyNumericalMethods.pdf
+      title: Whole book (PDF)
   toc:
     - file: README.md
     - file: notebooks/Study and Examination Rules.ipynb

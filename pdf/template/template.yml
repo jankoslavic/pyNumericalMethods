@@ -1,0 +1,50 @@
+myst: v1
+title: Book (LaTeX, xelatex)
+description: >
+  Template for exporting the whole book to PDF (Jupyter Book 2 / MyST). Derived from
+  plain_latex_book (Rowan Cockett, Curvenote, CC-BY-4.0): adds fontspec (Unicode),
+  babel, one chapter per notebook and line wrapping of long code lines.
+version: '1.0.0'
+license: CC-BY-4.0
+tags:
+  - book
+doc:
+  - id: title
+    required: true
+  - id: subtitle
+  - id: authors
+    required: true
+options:
+  - id: language
+    type: string
+    description: babel language (english, slovene ...)
+    default: english
+  - id: online_url
+    type: string
+    description: URL of the online book (printed on the title page)
+  - id: first_chapter
+    type: number
+    description: Number of the first chapter (0 if an introductory chapter precedes the lectures)
+    default: 1
+files:
+  - template.tex
+packages:
+  - amsmath
+  - amssymb
+  - babel
+  - booktabs
+  - caption
+  - changepage
+  - enumitem
+  - fontspec
+  - framed
+  - fvextra
+  - adjustbox
+  - fancyhdr
+  - geometry
+  - graphicx
+  - hyperref
+  - lm
+  - natbib
+  - url
+  - xcolor
