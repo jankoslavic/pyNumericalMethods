@@ -150,3 +150,5 @@ build_and_deploy.bat
 # Claude Code (lokalne opombe, ne objavljamo)
 CLAUDE.md
 .claude/
+
+_temp/

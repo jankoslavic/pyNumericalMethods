@@ -6,6 +6,8 @@ The content presented here is the basis for the *Numerical Methods* course taugh
 
 The lecture templates (Jupyter notebooks) are located in the `notebooks` folder, or you can view them in the [online book](https://jankoslavic.github.io/pyNumericalMethods/) (links are listed below).
 
+The exercise templates (problem definitions, without solutions) are located in the `Exercise templates` folder.
+
 > This is the American-English translation of the Slovenian book [`pynm`](https://github.com/jankoslavic/pynm).
 
 The whole book is also available as a [PDF](https://jankoslavic.github.io/pyNumericalMethods/pyNumericalMethods.pdf) (rebuilt automatically on every deploy).
