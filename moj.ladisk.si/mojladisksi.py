@@ -14,6 +14,19 @@ float_type_names = [dtype.__name__ for dtype in np.floating.__subclasses__()] + 
 def pripravi_resitev(answer):
     """
     The function prepares the solution for submission to the server.
+
+    The result is also passed through JSON, so that it contains only types that JSON knows.
+    The student's answer already goes through JSON when it is submitted, while the server
+    computes its own solution locally and does not serialize it; without this, a tuple would
+    stay a tuple on the server but become a list on the student's side, and the comparison
+    would fail. The type of the answer is not lost; it is stored in the key 'tip'.
+    """
+    return json.loads(json.dumps(_pripravi_resitev(answer), default=data_to_json))
+
+
+def _pripravi_resitev(answer):
+    """
+    Prepares the solution before it goes through JSON (see `pripravi_resitev`).
     The naming of the keys is important when checking the answers - it should not be changed!
     The result is: tip                (all)
                    vrednost           (NOT ndarray)
@@ -93,7 +106,7 @@ def data_to_json(object):
         return prepare_ndarray(object)
 
     if isinstance(object, complex):
-        return (object.real, object.imag)
+        return [object.real, object.imag]
 
     if type(object).__name__ in int_type_names:
         return int(object)
