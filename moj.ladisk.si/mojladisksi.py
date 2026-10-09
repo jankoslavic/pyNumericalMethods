@@ -143,4 +143,10 @@ def poslji(answer, id, st):
                         headers=headers,
                         cookies=cookies)
 
-    return r.json()['status']
+    # We print the server's response instead of returning it. The cells in the assignments
+    # call `poslji(...)` without `print(...)`, and Jupyter displays the `repr()` of the last
+    # expression in a cell, so a multi-line message would be shown with visible `\n` and
+    # quotes. On the first answer submitted in an open window, the server also reports that
+    # the solving time has started, with a link to the countdown, so the output must be
+    # multi-line.
+    print(r.json()['status'])
